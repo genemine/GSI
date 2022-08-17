@@ -26,6 +26,6 @@ Note: The four modules, which are pandas, numpy, scipy and sklearn, need to be i
 
 ## 2. Contact
 If you have any questions, please contact us:<br>
-Hong-Dong Li, hongdong@@csu.edu.cn<br>
-ChaoDeng, deng_chao@csu.edu.cn <br>
+Hong-Dong Li, hongdong@csu.edu.cn<br>
+Chao Deng, deng_chao@csu.edu.cn <br>
 
