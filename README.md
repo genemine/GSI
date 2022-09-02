@@ -17,7 +17,7 @@ predicting ASD-associated genes
 predicting AD-associated genes
 ```bash
  
-python AD_gene_pred.py ./data/pathwayMatrixSP.npz ./data/geneList.csv ./data/datasets/AD/ADgene.txt 10
+python AD_gene_pred.py ./data/signalMatrix.npz ./data/geneList.csv ./data/datasets/AD/ADgene.txt 10
  
  ```
 In the above commands, the fifth input, i.e. 10, represents the times of random sampling to build sub-models: in each random sampling,  negative genes shuffle for modeling. 5-fold CV is performed on the combined set of the positives and the sampled negatives. The sub-models built during CV are used to rank all human genes.
